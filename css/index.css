@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.navbar-collapse{
+    width: 100%
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#b5352b;
+}
+.banner{
+    background-image: url(../img/backgroung.png);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 45px;
+    color: white;
+    margin-left: 25px;
+}
+.banner button{
+    padding: 14px 20px;
+    /* margin: 10px 20px; */
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    margin: 55px 0px 70px 25px;
+}
+button.ticket{
+    background-color:#f2254c;
+    color: white;
+    border: 2px solid #f2254c; 
+    transition-duration: 0.4s;
+
+}
+.ticket:hover{
+    background-color:#16191c;
+    color:white;
+    border: 2px solid #16191c;
+}
+button.learn-more{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; 
+    transition-duration: 0.4s;
+}
+.learn-more:hover{
+    background-color:white;
+    color:#16191c;
+    border: 2px solid white;
+}

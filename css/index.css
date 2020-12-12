@@ -6,6 +6,10 @@
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
+    margin-left: 20px;
+}
+.bg-light {
+    background-color:#ffc007!Important;
 }
 .navbar-collapse{
     width: 100%
@@ -33,7 +37,6 @@
 }
 .banner button{
     padding: 14px 20px;
-    /* margin: 10px 20px; */
     border-radius: 5px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
@@ -73,8 +76,8 @@ button.learn-more{
     padding-top:80px;
     background-color: #EBECF0;
 }
-.container2 h3{
-    margin-top: 25px;
+main > h3{
+    margin: 25px 20px 0px 20px;
     text-align: center;
     font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -87,4 +90,23 @@ button.learn-more{
     display: block;
     width: 38px;
     margin: 25px auto 0;
+}
+.col-sm > h2{
+    font-size: 60px;
+    color:#ffc132;
+    text-align: center;
+    margin:40px 20px 0px 20px;
+}
+.col-sm h3{
+    text-align: center;
+    color:#494D51;
+    font-size: 23px;
+    
+}
+.col-sm >p{
+    text-align: center;
+    margin: 25px 20px 0px 20px;
+    font-size: 16px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#494D51;
 }

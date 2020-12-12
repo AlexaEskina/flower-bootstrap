@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
 .navbar-brand{
     font-family: 'Dancing Script', cursive;
@@ -35,9 +35,9 @@
     padding: 14px 20px;
     /* margin: 10px 20px; */
     border-radius: 5px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
-    margin: 55px 0px 70px 25px;
+    margin: 55px 0px 0px 25px;
 }
 button.ticket{
     background-color:#f2254c;
@@ -61,4 +61,30 @@ button.learn-more{
     background-color:white;
     color:#16191c;
     border: 2px solid white;
+}
+.container2 h2{
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    color:#16191c;
+    letter-spacing: 1px;
+}
+.container2{
+    padding-top:80px;
+    background-color: #EBECF0;
+}
+.container2 h3{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#494D51;
+}
+ .horizontal-line::after{
+    content: "";
+    height:3px;
+    background: #44AED4;
+    display: block;
+    width: 38px;
+    margin: 25px auto 0;
 }

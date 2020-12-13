@@ -47,7 +47,6 @@ button.ticket{
     color: white;
     border: 2px solid #f2254c; 
     transition-duration: 0.4s;
-
 }
 .ticket:hover{
     background-color:#16191c;
@@ -70,7 +69,6 @@ button.learn-more{
     font-size: 34px;
     font-family: 'Rubik', sans-serif;
     color:#16191c;
-    letter-spacing: 1px;
 }
 .container2{
     padding-top:80px;
@@ -110,7 +108,17 @@ main > h3{
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
 }
-/* .img-fluid2{
-    max-width: 100%;
-    height: auto;
-} */
+.container3 h3{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:#494D51;
+    margin:40px 20px 40px 20px;
+}
+.container3 p{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.tulip-background{
+    margin-bottom: 40px;
+}

@@ -8,18 +8,23 @@
     font-size: 25px;
     margin-left: 20px;
 }
+
 .bg-light {
     background-color:#ffc007!Important;
 }
+
 .navbar-collapse {
     width: 100%
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Noto Sans JP', sans-serif;
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
     color:#b5352b;
 }
+
 .banner {
     background-image: url(../img/backgroung.png);
     padding-top: 80px;
@@ -29,12 +34,14 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 45px;
     color: white;
     margin-left: 25px;
 }
+
 .banner button {
     padding: 14px 20px;
     border-radius: 5px;
@@ -42,38 +49,50 @@
     font-size: 16px;
     margin: 55px 0px 0px 25px;
 }
+
 button.ticket {
     background-color:#f2254c;
     color: white;
     border: 2px solid #f2254c; 
     transition-duration: 0.4s;
 }
+
 .ticket:hover {
     background-color:#16191c;
     color:white;
     border: 2px solid #16191c;
 }
+
 button.learn-more {
     background-color: transparent;
     color: white;
     border: 2px solid white; 
     transition-duration: 0.4s;
 }
+
 .learn-more:hover {
     background-color:white;
     color:#16191c;
     border: 2px solid white;
 }
+
+.img-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .container2 h2 {
     text-align: center;
     font-size: 34px;
     font-family: 'Rubik', sans-serif;
     color:#16191c;
 }
+
 .container2 {
     padding-top:80px;
     background-color: #EBECF0;
 }
+
 main > h3 {
     margin: 25px 20px 0px 20px;
     text-align: center;
@@ -81,6 +100,7 @@ main > h3 {
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
 }
+
  .horizontal-line::after {
     content: "";
     height:3px;
@@ -89,17 +109,20 @@ main > h3 {
     width: 38px;
     margin: 25px auto 0;
 }
+
 .col-sm > h2 {
     font-size: 60px;
     color:#ffc132;
     text-align: center;
     margin:40px 20px 0px 20px;
 }
+
 .col-sm h3 {
     text-align: center;
     color:#494D51;
     font-size: 23px; 
 }
+
 .col-sm >p {
     text-align: center;
     margin: 25px 20px 40px 20px;
@@ -107,6 +130,7 @@ main > h3 {
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
 }
+
 .container3 h3 {
     text-align: center;
     font-size: 18px;
@@ -114,13 +138,16 @@ main > h3 {
     color:#494D51;
     margin:40px 20px 40px 20px;
 }
+
 .container3 p {
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
+
 .tulip-background {
     margin-bottom: 40px;
 }
+
 .buy-a-ticket {
     background-image: url(../img/calla-background.png);
     padding-top: 80px;
@@ -129,11 +156,13 @@ main > h3 {
     background-position: center;
     background-size: cover;
 }
+
 .buy-a-ticket h2 {
     font-size: 38px;
     font-family: 'Rubik', sans-serif;
     color: #FFFFFF;
 }
+
 .buy-a-ticket p {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
@@ -168,16 +197,19 @@ main > h3 {
     border: 2px solid #44aed4; 
     transition-duration: 0.4s;
 }
+
 .ticket-hurry-up:hover {
     background-color: #f2254c;
     color:#ffffff;
     border: 2px solid #f2254c;
 }
+
 .gallery h2 {
     font-size: 34px;
     font-family: 'Rubik', sans-serif;
     margin-top: 20px;
 }
+
  .horizontal-line3::after {
     content: "";
     height:3px;
@@ -186,6 +218,7 @@ main > h3 {
     width: 38px;
     margin: 25px auto 0;
 }
+
 .gallery p {
     font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -194,7 +227,75 @@ main > h3 {
     text-align: center;
     margin: 25px 10px 40px 10px;
 }
-#carouselGallery {
-    padding-left: 25px;
-    padding-right: 25px;
+
+.book-your-ticket{
+    background-image: url(../img/background2.png);
+    padding-top: 80px;
+    padding-bottom: 100px;
+    height: 100%; 
+    background-size: cover;
+}
+
+.padding {
+    padding: 5rem !important
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 1px
+}
+
+body {
+    background-color: #000
+}
+
+.padding {
+    padding: 5rem !important
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 45px;
+    border-radius: 1px
+}
+
+h4 {
+    font-size: 36px;
+    letter-spacing: 0.08em
+}
+
+.signup-form .form-control{
+    font-size: 16px;
+    padding: 10px 15px;
+    color: #555;
+    background-color: #fff;
+    border-radius: 3px
+}
+
+.signup-form input {
+    border: 1px solid #eee;
+    height: 38px;
+    box-shadow: none !important
+}
+
+.btn-blue {
+    background: #44c5ee;
+    padding: 10px 28px;
+    border: 2px solid #44c5ee;
+    color: #fff;
+    border-radius: 50px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    box-shadow: 0px 0px 60px 0px rgba(68, 197, 238, 0.6);
+    outline: none !important
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    background: #fff;
+    color: #496174
 }

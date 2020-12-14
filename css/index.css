@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     margin-left: 20px;
@@ -11,16 +11,16 @@
 .bg-light {
     background-color:#ffc007!Important;
 }
-.navbar-collapse{
+.navbar-collapse {
     width: 100%
 }
-.navbar-light .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link {
     font-family: 'Noto Sans JP', sans-serif;
 }
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
     color:#b5352b;
 }
-.banner{
+.banner {
     background-image: url(../img/backgroung.png);
     padding-top: 80px;
     padding-bottom: 100px;
@@ -29,59 +29,59 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner h1{
+.banner h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 45px;
     color: white;
     margin-left: 25px;
 }
-.banner button{
+.banner button {
     padding: 14px 20px;
     border-radius: 5px;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 16px;
     margin: 55px 0px 0px 25px;
 }
-button.ticket{
+button.ticket {
     background-color:#f2254c;
     color: white;
     border: 2px solid #f2254c; 
     transition-duration: 0.4s;
 }
-.ticket:hover{
+.ticket:hover {
     background-color:#16191c;
     color:white;
     border: 2px solid #16191c;
 }
-button.learn-more{
+button.learn-more {
     background-color: transparent;
     color: white;
     border: 2px solid white; 
     transition-duration: 0.4s;
 }
-.learn-more:hover{
+.learn-more:hover {
     background-color:white;
     color:#16191c;
     border: 2px solid white;
 }
-.container2 h2{
+.container2 h2 {
     text-align: center;
     font-size: 34px;
     font-family: 'Rubik', sans-serif;
     color:#16191c;
 }
-.container2{
+.container2 {
     padding-top:80px;
     background-color: #EBECF0;
 }
-main > h3{
+main > h3 {
     margin: 25px 20px 0px 20px;
     text-align: center;
     font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
 }
- .horizontal-line::after{
+ .horizontal-line::after {
     content: "";
     height:3px;
     background: #44AED4;
@@ -89,39 +89,39 @@ main > h3{
     width: 38px;
     margin: 25px auto 0;
 }
-.col-sm > h2{
+.col-sm > h2 {
     font-size: 60px;
     color:#ffc132;
     text-align: center;
     margin:40px 20px 0px 20px;
 }
-.col-sm h3{
+.col-sm h3 {
     text-align: center;
     color:#494D51;
     font-size: 23px; 
 }
-.col-sm >p{
+.col-sm >p {
     text-align: center;
     margin: 25px 20px 40px 20px;
     font-size: 16px;
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
 }
-.container3 h3{
+.container3 h3 {
     text-align: center;
     font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
     color:#494D51;
     margin:40px 20px 40px 20px;
 }
-.container3 p{
+.container3 p {
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
-.tulip-background{
+.tulip-background {
     margin-bottom: 40px;
 }
-.buy-a-ticket{
+.buy-a-ticket {
     background-image: url(../img/calla-background.png);
     padding-top: 80px;
     padding-bottom: 100px;
@@ -129,12 +129,12 @@ main > h3{
     background-position: center;
     background-size: cover;
 }
-.buy-a-ticket h2{
+.buy-a-ticket h2 {
     font-size: 38px;
     font-family: 'Rubik', sans-serif;
     color: #FFFFFF;
 }
-.buy-a-ticket p{
+.buy-a-ticket p {
     font-size: 18px;
     font-family: 'Rubik', sans-serif;
     letter-spacing: 0.2px;
@@ -143,7 +143,7 @@ main > h3{
     margin: 25px 10px 60px 10px;
 }
 
-.horizontal-line2::after{
+.horizontal-line2::after {
     content: "";
     height:3px;
     background: #ffffff;
@@ -152,11 +152,11 @@ main > h3{
     margin: 25px auto 0;
 }
 
-.colortext{
+.colortext {
     color:#f2254c;
 }
 
-.ticket-hurry-up{
+.ticket-hurry-up {
     padding: 10px 22px;
     border-radius: 5px;
     font-family: 'Rubik', sans-serif;
@@ -168,8 +168,33 @@ main > h3{
     border: 2px solid #44aed4; 
     transition-duration: 0.4s;
 }
-.ticket-hurry-up:hover{
+.ticket-hurry-up:hover {
     background-color: #f2254c;
     color:#ffffff;
     border: 2px solid #f2254c;
+}
+.gallery h2 {
+    font-size: 34px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+}
+ .horizontal-line3::after {
+    content: "";
+    height:3px;
+    background: #ffc132;
+    display: block;
+    width: 38px;
+    margin: 25px auto 0;
+}
+.gallery p {
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.2px;
+    color:#494d51;
+    text-align: center;
+    margin: 25px 10px 40px 10px;
+}
+#carouselGallery {
+    padding-left: 25px;
+    padding-right: 25px;
 }

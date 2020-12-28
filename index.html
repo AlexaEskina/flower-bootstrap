@@ -8,7 +8,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <!-- <link rel="stylesheet" href="css/countdown.css">   -->
 
 </head>
 
@@ -25,16 +24,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About us</a>
+                                <a class="nav-link active" aria-current="page" href="#flower2020">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Tickets</a>
+                                <a class="nav-link active" aria-current="page" href="#book-your-ticket">Tickets</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Top florists</a>
+                                <a class="nav-link" href="#top-florists">Top florists</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact us</a>
+                                <a class="nav-link" href="#contact-us">Contact us</a>
                             </li>
                         </ul>
                     </div>
@@ -42,8 +41,8 @@
             </nav>
             <div class="banner">
                 <h1>Welcome to<br> Kyiv Flower<br> Show 2020</h1>
-                <button class="ticket">Book a ticket</button>
-                <button class="learn-more">Learn more</button>
+                <a href="#book-your-ticket"><button class="ticket">Book a ticket</button></a>
+                <a href="#flower2020"><button class="learn-more">Learn more</button></a>
             </div>
         </header>
         <main class="container2">
@@ -72,7 +71,7 @@
             <div class="tulip-background">
                 <img src="img/tulips.jpg" class="img-fluid" alt="Yellow tulips">
             </div>
-            <div class="top-florists">
+            <div class="top-florists" id="top-florists">
                 <h2>Top Florists</h2>
                 <div class="horizontal-line3"></div>
                 <p>In Kyiv Flower Show 2020, cut flower arrangements will be exhibited made by top Ukrainian florists.
@@ -89,7 +88,7 @@
                     </div>
                 </section>
             </div>
-            <section class="flower2020">
+            <section class="flower2020" id="flower2020">
                 <div class="info2020">
                     <h2>About Kyiv Flower Show 2020</h2>
                     <div class="horizontal-line"></div>
@@ -105,7 +104,7 @@
                         <li class>The best opportunity to enjoy the aesthetics of flowers</li>
                     </ul>
                 </div>
-                <button class="ticket-buy">Buy a ticket</button>
+                <a href="#book-your-ticket"><button class="ticket-buy">Buy a ticket</button></a>
             </section>
             <div class="container3">
                 <h2>Selected Flowers</h2>
@@ -154,11 +153,8 @@
                     </div>
                 </div>
 
-                <button class="ticket-hurry-up">Tickets</button>
+                <a href="#book-your-ticket"><button class="ticket-hurry-up">Tickets</button></a>
             </article>
-
-
-
             <section class="gallery">
                 <div>
                     <h2>Gallery</h2>
@@ -200,43 +196,123 @@
                     </a>
                 </div>
             </section>
-            <article class="any-questions">
-                <h2>
-                    Any question? <br>Call us
-                    <span class="colortext2">+38 (044) 567 89 00</span>
-                </h2>
-                <div class="horizontal-line4"></div>
-                <p>or send your message at <span class="colortext2">irisflower@email.com</span></p>
-                <div class="button-questions">
-                    <button class="ticket2">Book a ticket</button>
-                    <button class="learn-more2">Learn more</button>
-                </div>
-            </article>
-
-            <div class="book-your-ticket">
-                <div class="padding container d-flex justify-content-center">
-                    <div class="col-md-10 col-md-offset-1">
-                        <form class="signup-form">
-                            <h4 class="text-center">Book your ticket</h4>
-                            <hr>
-                            <div class="form-group"> <input type="text" class="form-control"
-                                    placeholder="Enter your full name*" required="required"> </div>
-                            <br>
-                            <div class="form-group"> <input type="email" class="form-control"
-                                    placeholder="Email your e-mail address*" required="required"> </div>
-                            <br>
-                            <div class="form-group"> <input type="date" class="form-control" placeholder="Choose date"
-                                    required="required"> </div>
-                            <br>
-                            <div class="form-group"> <input type="text" class="form-control"
-                                    placeholder="Choose ticket type" required="required"></div>
-                            <br>
-                            <div class="form-group text-center"> <button type="submit"
-                                    class="btn btn-blue btn-block">Submit</button> </div>
-                        </form>
+            <div class="container4">
+                <h3>Tickets</h3>
+                <div class="horizontal-line"></div>
+                <p>Choose the ticket type that suits you most. We have 3 options so far.</p>
+                <div class="container-info">
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="img/all-day-pass.jpg" class="card-img-top" alt="All-day pass ticket card">
+                            <div class="card-body">
+                                <a href="#book-your-ticket" class="btn btn-primary" id="btn-primary1">Book a ticket</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/day-ticket.jpg" class="card-img-top" alt="day ticket card">
+                            <div class="card-body">
+                                <a href="#book-your-ticket" class="btn btn-primary" id="btn-primary2">Book a ticket</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="img/evening-ticket.png" class="card-img-top" alt="Evening ticket card">
+                            <div class="card-body">
+                                <a href="#book-your-ticket" class="btn btn-primary" id="btn-primary3">Book a ticket</a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
-            </div>
+
+                <article class="any-questions">
+                    <h2>
+                        Any question? <br>Call us
+                        <span class="colortext2">+38 (044) 567 89 00</span>
+                    </h2>
+                    <div class="horizontal-line4"></div>
+                    <p>or send your message at <span class="colortext2">irisflower@email.com</span></p>
+                    <div class="button-questions">
+                        <a href="#book-your-ticket"><button class="ticket2">Book a ticket</button></a>
+                        <a href="#flower2020"><button class="learn-more2">Learn more</button></a>
+                    </div>
+                </article>
+
+                <section class="book-your-ticket" id="book-your-ticket">
+                    <div class="container5">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                            <div class="col">
+                                <h2>Book Your Ticket</h2>
+                                <div class="horizontal-line"></div>
+                                <p>Complete the form below, choose the ticket type and date.</p>
+                                <form>
+                                    <input type="text" class="reg-form" name="user-name"
+                                        placeholder="Enter your full name*" required>
+                                    <br>
+                                    <input type="text" class="reg-form" name="user-email"
+                                        placeholder="Enter your e-mail*" required>
+                                    <br>
+                                    <input type="date" class="reg-form" name="calendar">
+                                    <br>
+                                    <select name="choose-ticket-type" class="reg-form">
+                                        <option value="" disabled selected>Choose ticket type</option>
+                                        <option value="Morning-ticket">Morning ticket</option>
+                                        <option value="Evening-ticket">Evening ticket</option>
+                                        <option value="All-day-ticket">All day ticket</option>
+                                    </select>
+                                    <br>
+                                    <input type="Submit" class="reg-form" id="submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="contact-us" id="contact-us">
+                    <h2>Contacts</h2>
+                    <div class="horizontal-line"></div>
+                    <h3>Kyiv Flower Show 2020</h3>
+                    <p>Spiviche Pole,
+                        Kyiv, 10111, Ukraine.
+                        <br>
+                        +38(044) 567 89 00
+                        <span class="colortext2">irisflower@email.com
+                    </p></span>
+                    <h3>Working hours</h3>
+                    <p>Monday - Sunday: 10 AM - 7 PM</p>
+                </section>
+                <section class="all-rights">
+
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item" id="nav-end">
+                            <a class="nav-link active" href="#flower2020">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#book-your-ticket">Tickets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top-florists">Top florists</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm" id="created">
+                                © Created by Alexandra Eskina
+                            </div>
+                            <div class="col-sm">
+                            </div>
+                            <div class="col-sm" id="created">
+                                All rights Reserved
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
         </main>
     </div>
 
@@ -245,6 +321,9 @@
         crossorigin="anonymous"></script>
     <script src="js/carousel3.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/carousel-3.js"></script>
+
+
 </body>
 
 </html>
